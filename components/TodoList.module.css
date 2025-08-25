@@ -1,0 +1,34 @@
+.container {
+    max-width: 400px;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ul {
+    padding: 0;
+}
+
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+}
+
+.todoItem span.completed {
+    text-decoration: line-through;
+    color: #9ca3af;
+}
+
+.addTodo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
